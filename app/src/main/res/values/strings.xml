@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bookmarks</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="label_add">Add</string>
+    <string name="label_open">Open</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_link">Link</string>
+    <string name="example_url">http://www.example.com</string>
+    <string name="bookmark_name">Bookmark Title</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_bookmark">Add Bookmark</string>
+    <string name="title_activity_view_bookmark">Bookmark Details</string>
+</resources>

@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25sp"
+    tools:context="edu.mobidev.labexambookmarks.AddBookmarkActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_add"
+        android:text="@string/label_add"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:background="#ff594d"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_add"
+        android:layout_marginTop="20sp"
+        android:hint="@string/bookmark_name"
+        android:id="@+id/et_bookmark"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_bookmark"
+        android:layout_marginTop="20sp"
+        android:hint="@string/example_url"
+        android:id="@+id/et_url"
+        />
+
+</RelativeLayout>
